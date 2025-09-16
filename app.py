@@ -1,4 +1,4 @@
-import streamlit as st
+aimport streamlit as st
 import streamlit.components.v1 as components
 
 st.set_page_config(
@@ -77,7 +77,7 @@ with st.sidebar:
     Versi UI: v1.0 • Streamlit • Theme Dark
     """)
 
-def embed_iframe(src, hide_top_px=72, height=800):
+def embed_iframe(src, hide_top_px=60, height=800):
     components.html(f"""
     <div style="height:{height}px; overflow:hidden; position:relative;">
         <iframe src="{src}" 
