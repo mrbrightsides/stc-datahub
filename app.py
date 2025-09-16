@@ -62,6 +62,7 @@ with st.sidebar:
     7. [SmartFaith](https://smartfaith.streamlit.app/)
     8. [Learn3](https://learn3.streamlit.app/)
     9. [Nexus](https://rantai-nexus.streamlit.app/)
+    10. [BlockPedia](https://blockpedia.streamlit.app/)
 
     ---
     #### 🙌 Dukungan & kontributor
