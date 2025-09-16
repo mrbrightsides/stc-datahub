@@ -2,8 +2,8 @@ import streamlit as st
 import streamlit.components.v1 as components
 
 st.set_page_config(
-    page_title="STC Benchmarking",
-    page_icon="⚡",
+    page_title="STC DataHub",
+    page_icon="📈",
     layout="wide"
 )
 
@@ -14,17 +14,44 @@ with st.sidebar:
     )
     st.sidebar.markdown("📘 **About**")
     st.sidebar.markdown("""
-    STC Bench adalah modul benchmarking ringan untuk smart contract di jaringan Ethereum (testnet/mainnet).
-    Tujuannya: mengeksekusi skenario uji, mencatat detail transaksi, lalu men-translate hasilnya ke format standar (CSV/NDJSON) yang siap divisualisasikan di STC Analytics.
-       
-    # 📜 Contract & Scenario
-    Masukkan Contract Address, ABI, dan pilih file skenario benchmark (YAML)
+    STC DataHub adalah data hub pariwisata berbasis open-source yang menghubungkan berbagai sumber dataset — dari Kaggle, portal pemerintah, repositori akademik, hingga layanan publik global seperti OpenStreetMap dan InsideAirbnb.
+
+    ---
+    #### 🔮 Vision Statement
+    > To become the trusted, extensible hub for tourism-related datasets, enabling researchers, developers, and communities to build transparent, verifiable, and innovative solutions for the future of smart tourism.
     
-    # ▶️ Run Benchmark
-    Jalankan skenario dan hasil akan bisa di unduh, simpang di folder `outputs/`
-       
-    # 📂 Output & Export
-    Benchmark menghasilkan file JSON yang dapat ditranslate ke CSV/NDJSON untuk digunakan di STC Analytics
+    Dengan STC DataHub, data pariwisata yang tadinya terpecah-pecah, sulit diakses, atau tidak terdokumentasi dengan baik bisa:
+
+    - 📊 Distandardisasi → kolom seragam, format rapi.
+
+    - 🛡️ Dipertanggungjawabkan → setiap dataset punya provenance log.
+
+    - 🌍 Dibagikan lintas ekosistem → siap dipakai untuk riset, dashboard, hingga Web3.
+    
+    ---
+    ### ❓ How to Log in
+    
+    Untuk menjaga keamanan sekaligus kemudahan akses, STC DataHub mendukung dua mode login:
+
+    1. Local Admin Login (MVP)
+    
+    - Gunakan akun admin yang sudah terdaftar di .env (ADMIN_EMAIL, ADMIN_PASSWORD).
+    
+    - Masuk via Admin UI (http://localhost:3000/login).
+    
+    - Cocok untuk pengujian dan setup awal.
+    
+    2. Sign-In with Ethereum (SIWE) [Planned]
+    
+    - Klik tombol Login with Wallet di UI.
+    
+    - Hubungkan wallet (MetaMask atau WalletConnect).
+    
+    - Tandatangani pesan SIWE untuk autentikasi.
+    
+    - Dataset premium / terbatas bisa diatur hanya bisa diakses oleh wallet yang valid.
+
+    > 📌 Catatan: SIWE login akan ditambahkan di fase berikutnya. MVP saat ini cukup dengan Local Admin.
     
     ---
     ### 🧩 RANTAI Ecosystem
@@ -60,7 +87,7 @@ def embed_iframe(src, hide_top_px=72, height=800):
     """, height=height)
 
 # URL Ohara
-iframe_url = "https://ohara.ai/mini-apps/a11f2bf3-af2b-4763-aeb8-53999129c2e5"
+iframe_url = "https://ohara.ai/mini-apps/877c6413-f17c-498c-966b-beb2f7f59c59"
 
 # Panggil fungsi
 embed_iframe(iframe_url, hide_top_px=120, height=800)
