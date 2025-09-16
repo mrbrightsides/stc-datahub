@@ -37,11 +37,11 @@ with st.sidebar:
     
     - Gunakan akun admin yang sudah terdaftar di .env (ADMIN_EMAIL, ADMIN_PASSWORD).
     
-    - Masuk via Admin UI (http://localhost:3000/login).
+    - Masuk via Admin UI (http://localhost:3000/login)
     
     - Cocok untuk pengujian dan setup awal.
     
-    2. Sign-In with Ethereum (SIWE) [Planned]
+    2. Sign-In with Ethereum (SIWE)
     
     - Klik tombol Login with Wallet di UI.
     
@@ -50,19 +50,18 @@ with st.sidebar:
     - Tandatangani pesan SIWE untuk autentikasi.
     
     - Dataset premium / terbatas bisa diatur hanya bisa diakses oleh wallet yang valid.
-
-    > 📌 Catatan: SIWE login akan ditambahkan di fase berikutnya. MVP saat ini cukup dengan Local Admin.
     
     ---
     ### 🧩 RANTAI Ecosystem
     1. [STC Analytics](https://stc-analytics.streamlit.app/)
     2. [STC GasVision](https://stc-gasvision.streamlit.app/)
     3. [STC Converter](https://stc-converter.streamlit.app/)
-    4. [STC Insight](https://stc-insight.streamlit.app/)
-    5. [STC Plugin](https://smartourism.elpeef.com/)
-    6. [SmartFaith](https://smartfaith.streamlit.app/)
-    7. [Learn3](https://learn3.streamlit.app/)
-    8. [Nexus](https://rantai-nexus.streamlit.app/)
+    4. [STC Bench](https://stc-bench.streamlit.app/)
+    5. [STC Insight](https://stc-insight.streamlit.app/)
+    6. [STC Plugin](https://smartourism.elpeef.com/)
+    7. [SmartFaith](https://smartfaith.streamlit.app/)
+    8. [Learn3](https://learn3.streamlit.app/)
+    9. [Nexus](https://rantai-nexus.streamlit.app/)
 
     ---
     #### 🙌 Dukungan & kontributor
