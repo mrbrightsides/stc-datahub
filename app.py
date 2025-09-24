@@ -67,14 +67,14 @@ with st.sidebar:
     ---
     ### ⛓ RANTAI Communities
 
-    > 💡 RANTAI Communities adalah ekosistem apps eksperimental berbasis Web3 & AI untuk riset, kolaborasi, dan inovasi. Dibangun di atas 3 core: Dev → Build, Net → Connect, Lab → Grow.
-    
     🔧 Dev → “Build the chain”
     1. [Numerical Methods Lab](https://metnumlab.streamlit.app/)
     2. [Computational Analytics Studio](https://komnumlab.streamlit.app/)
     3. [BlockPedia](https://blockpedia.streamlit.app/)
     4. [Learn3](https://learn3.streamlit.app/)
     5. [LearnPy](https://rantai-learnpy.streamlit.app/)
+    6. [Cruise](https://rantai-cruise.streamlit.app/)
+    7. [IndustriX](https://rantai-industrix.streamlit.app/)
 
     🌐 Net → “Connect the chain”
     1. [SmartFaith](https://smartfaith.streamlit.app/)
@@ -84,6 +84,7 @@ with st.sidebar:
     5. [Decentralized Storage Optimizer](https://rantai-greenstorage.streamlit.app/)
     6. [Cloud Carbon Footprint Tracker](https://rantai-greencloud.streamlit.app/)
     7. [Cloud.Climate.Chain](https://rantai-3c.streamlit.app/)
+    8. [Property Management System](https://rantai-pms.streamlit.app/)
     
     🌱 Lab → “Grow the chain”
     1. [BlockBook](https://blockbook.streamlit.app/)
