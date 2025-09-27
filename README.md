@@ -1,6 +1,6 @@
-# STC DataHub 📈
+# RANTAI DataHub 📈
 
-STC DataHub adalah platform standalone untuk discover, fetch, scrape, normalize, dan store dataset pariwisata dari berbagai sumber.
+RANTAI DataHub adalah platform standalone untuk discover, fetch, scrape, normalize, dan store dataset pariwisata dari berbagai sumber.
 Tujuan utamanya adalah menyediakan hub data yang bisa diperluas lewat sistem connector-driven, sehingga dataset baru bisa ditambahkan tanpa perlu mengubah kode utama.
 
 [![Build Status](https://img.shields.io/badge/build-passing-brightgreen)](https://github.com/mrbrightsides/stc-datahub/actions)
