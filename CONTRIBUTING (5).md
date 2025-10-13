@@ -46,7 +46,7 @@ We are committed to providing a welcoming and inspiring community for all. Pleas
 
 ### Find an Issue
 
-1. Check [GitHub Issues](https://github.com/yourusername/stc-datahub/issues)
+1. Check [GitHub Issues](https://github.com/mrbrightsides/rantai-datahub/issues)
 2. Look for issues tagged with `good-first-issue` or `help-wanted`
 3. Comment on the issue to claim it
 4. Wait for maintainer approval before starting work
@@ -452,9 +452,9 @@ Any other relevant information
 
 ## Questions?
 
-- **General questions**: [GitHub Discussions](https://github.com/yourusername/stc-datahub/discussions)
-- **Bug reports**: [GitHub Issues](https://github.com/yourusername/stc-datahub/issues)
-- **Email**: contribute@stcdatahub.com
+- **General questions**: [GitHub Discussions](https://github.com/mrbrightsides/rantai-datahub/discussions)
+- **Bug reports**: [GitHub Issues](https://github.com/mrbrightsides/rantai-datahub/issues)
+- **Email**: support@elpeef.com
 
 ---
 
@@ -467,6 +467,6 @@ Contributors will be:
 
 ---
 
-**Thank you for contributing to STC DataHub! 🎉**
+**Thank you for contributing to RANTAI DataHub! 🎉**
 
 Every contribution, no matter how small, makes a difference!
