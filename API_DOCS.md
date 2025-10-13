@@ -444,10 +444,9 @@ query {
 
 For API support:
 - **Documentation Issues**: Open GitHub issue
-- **Integration Help**: discussions@stcdatahub.com
-- **Bug Reports**: bugs@stcdatahub.com
+- **Bug Reports**: support@elpeef.com
 
 ---
 
-**Last Updated**: January 2024  
+**Last Updated**: October 2025  
 **API Version**: 1.0.0
